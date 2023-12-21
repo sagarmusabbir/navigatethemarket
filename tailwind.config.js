@@ -12,7 +12,18 @@ module.exports = {
     "./*.{html,js}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      boxShadow: {
+        '3xl': '5px 5px 20px 0 rgba(37,24,9,.2)',
+      },
+      dropShadow: {
+        '3xl': '5px 5px 20px 0 rgba(37,24,9,.2)',
+
+      }
+    
+
+      
+    },
   },
   plugins: [
     require('flowbite/plugin'),

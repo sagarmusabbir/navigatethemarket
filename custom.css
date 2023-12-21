@@ -1,0 +1,45 @@
+.ev-omcc4f {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    grid-column: 3;
+    grid-row: 1/span 3;
+    background: white;
+    box-shadow: 5px 5px 20px 0 rgba(37,24,9,.2);}
+    
+        .ev-omcc4f {
+        justify-content: flex-start;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-top: 40px;
+        margin-bottom: 20px;}
+        
+        
+                 .ev-hq3d7z {
+                 text-align: left;
+                 padding-left: 40px;
+                 padding-right: 40px;
+                 margin-bottom: 20px;}
+                 
+                 
+                        .ev-18vzm0c {
+                        font-size: 24px;}
+                        
+                           
+                           
+                               .ev-a28m9r {
+                               font-size: 16px;
+                               margin-top: 0;
+                               margin-bottom: 16px;
+                               color: rgba(67, 67, 67, 1);
+                               white-space: pre-wrap;}
+                               
+                               
+    .ev-hzohct {
+    grid-row: 3;
+    display: flex;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    grid-column: 3;
+    margin-bottom: 40px;
+}
