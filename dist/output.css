@@ -3133,6 +3133,26 @@ input:checked + .toggle-bg {
   text-align: center;
 }
 
+.indent-px {
+  text-indent: 1px;
+}
+
+.indent-2 {
+  text-indent: 0.5rem;
+}
+
+.indent-6 {
+  text-indent: 1.5rem;
+}
+
+.indent-20 {
+  text-indent: 5rem;
+}
+
+.indent-5 {
+  text-indent: 1.25rem;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
