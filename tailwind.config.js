@@ -6,6 +6,8 @@ Author: Musabbir Sagar | musabbirsagar.com
 
 
 module.exports = {
+
+  darkMode: 'class',
   content: [
     "./node_modules/flowbite/**/*.js",
     './node_modules/flowbite-react/lib/esm/**/*.js',
@@ -30,7 +32,7 @@ module.exports = {
     
   ],
   
-  darkMode: 'class',
+  
   theme: {
     extend: {
       colors: {
