@@ -265,7 +265,8 @@ Author: Musabbir Sagar | musabbirsagar.com
                     <ul class="flex flex-row mt-0 space-x-8 text-sm font-medium">
 
                         <li>
-                            <button id="dropdown-button-megamenu" data-collapse-toggle="megamenu"
+                            <button id="dropdown-button-megamenu" data-dropdown-toggle="megamenu"
+                                data-dropdown-trigger="hover"
                                 class="flex justify-between items-center w-full font-medium dark:hover:text-primary-500 md:p-0 md:w-auto dark:text-white hover:text-primary-500 dark:focus:text-primary-500">Personal
                                 <svg class="ml-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -275,7 +276,8 @@ Author: Musabbir Sagar | musabbirsagar.com
                                 </svg></button>
                         </li>
                         <li>
-                            <button id="dropdown-button-megamenu" data-collapse-toggle="megamenu2"
+                            <button id="dropdown-button-megamenu" data-dropdown-toggle="megamenu2"
+                                data-dropdown-trigger="hover"
                                 class="flex justify-between items-center w-full font-medium dark:hover:text-primary-500 md:p-0 md:w-auto dark:text-white hover:text-primary-500 dark:focus:text-primary-500">Business
                                 <svg class="ml-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -290,7 +292,7 @@ Author: Musabbir Sagar | musabbirsagar.com
             </div>
         </nav>
 
-        <nav id="megamenu" class="bg-white border-b border-gray-200 dark:bg-gray-800 dark:border-gray-600">
+        <nav id="megamenu" class="bg-white border-b border-gray-200 dark:bg-gray-800 dark:border-gray-600 w-full">
             <div
                 class="grid py-4 px-4 mx-auto max-w-screen-xl text-gray-900 dark:text-white md:grid-cols-2 lg:grid-cols-4 md:px-6">
                 <ul class="col-span-2 md:col-span-1">
@@ -340,6 +342,41 @@ Author: Musabbir Sagar | musabbirsagar.com
 
 
                     </li>
+
+                    <li class="flex p-3">
+
+                        <svg class="mr-2 w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                        <div>
+                            <div class="font-semibold"><a href="#" class="hover:text-primary-400">
+                                    Motoring
+                                </a></div>
+                            <div class="text-sm font-normal text-gray-500 dark:text-gray-400"><a href="#"
+                                    class="hover:text-primary-400">Buy</a></div>
+                            <div class="text-sm font-normal text-gray-500 dark:text-gray-400"><a href="#"
+                                    class="hover:text-primary-400">Sell</a></div>
+                            <div class="text-sm font-normal text-gray-500 dark:text-gray-400"><a href="#"
+                                    class="hover:text-primary-400 ">Maintain</a></div>
+
+                        </div>
+
+                    </li>
+
+
+
+
+
+
+                </ul>
+                <ul class="col-span-2 md:col-span-1">
+
+
+
+
                     <li class="flex p-3">
 
                         <svg class="mr-2 w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
@@ -373,38 +410,7 @@ Author: Musabbir Sagar | musabbirsagar.com
 
 
                     </li>
-
-
-
-
-
-                </ul>
-                <ul class="col-span-2 md:col-span-1">
-
-
-                    <li class="flex p-3 rounded-lg">
-
-                        <svg class="mr-2 w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd"
-                                d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-                                clip-rule="evenodd"></path>
-                        </svg>
-                        <div>
-                            <div class="font-semibold"><a href="#" class="hover:text-primary-400">
-                                    Motoring
-                                </a></div>
-                            <div class="text-sm font-normal text-gray-500 dark:text-gray-400"><a href="#"
-                                    class="hover:text-primary-400">Buy</a></div>
-                            <div class="text-sm font-normal text-gray-500 dark:text-gray-400"><a href="#"
-                                    class="hover:text-primary-400">Sell</a></div>
-                            <div class="text-sm font-normal text-gray-500 dark:text-gray-400"><a href="#"
-                                    class="hover:text-primary-400 ">Maintain</a></div>
-
-                        </div>
-
-                    </li>
-                    <li class="flex p-3 rounded-lg">
+                    <li class="flex p-3">
 
                         <svg class="mr-2 w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
                             xmlns="http://www.w3.org/2000/svg">
@@ -526,7 +532,7 @@ Author: Musabbir Sagar | musabbirsagar.com
                 </ul>
 
 
-                <div class="col-span-2 space-y-1 p-4 lg:col-span-1">
+                <div class="col-span-2 p-4 lg:col-span-1">
                     <h2 class="font-semibold text-gray-900 dark:text-white">Deals</h2>
                     <p class="font-light text-md text-gray-500 dark:text-gray-400">Connecting your brand to our
                         customers
@@ -544,7 +550,7 @@ Author: Musabbir Sagar | musabbirsagar.com
                 </div>
             </div>
         </nav>
-        <nav id="megamenu2" class="bg-white border-b border-gray-200 dark:bg-gray-800 dark:border-gray-600">
+        <nav id="megamenu2" class="bg-white border-b border-gray-200 dark:bg-gray-800 dark:border-gray-600 w-full">
             <div
                 class="grid py-4 px-4 mx-auto max-w-screen-xl text-gray-900 dark:text-white md:grid-cols-2 lg:grid-cols-4 md:px-6">
                 <ul class="col-span-2 md:col-span-1">
@@ -631,7 +637,7 @@ Author: Musabbir Sagar | musabbirsagar.com
 
 
 
-                    <li class="flex p-3 ">
+                    <li class="flex p-3">
 
                         <svg class="mr-2 w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
                             xmlns="http://www.w3.org/2000/svg">
@@ -666,7 +672,7 @@ Author: Musabbir Sagar | musabbirsagar.com
                         </div>
 
                     </li>
-                    <li class="flex p-3 rounded-lg">
+                    <li class="flex p-3">
 
                         <svg class="mr-2 w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
                             xmlns="http://www.w3.org/2000/svg">
@@ -685,7 +691,7 @@ Author: Musabbir Sagar | musabbirsagar.com
                             <div class="text-sm font-normal text-gray-500 dark:text-gray-400"><a href="#"
                                     class="hover:text-primary-400">Online
                                 </a></div>
-                            <div class="text-sm font-normal text-gray-500 dark:text-gray-400 pb-1.5"><a href="#"
+                            <div class="text-sm font-normal text-gray-500 dark:text-gray-400 "><a href="#"
                                     class="hover:text-primary-400">Bulk Email
                                 </a></div>
                             <div class="text-sm font-normal text-gray-500 dark:text-gray-400 pb-1.5"><a href="#"
@@ -779,7 +785,8 @@ Author: Musabbir Sagar | musabbirsagar.com
                 </ul>
 
 
-                <div class="col-span-2 space-y-1 p-4 lg:col-span-1">
+                <div class="col-span-2 p-4 lg:col-span-1">
+
                     <h2 class="font-semibold text-gray-900 dark:text-white">Deals</h2>
                     <p class="font-light text-md text-gray-500 dark:text-gray-400">Connecting your brand to our
                         customers
